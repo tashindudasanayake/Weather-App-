@@ -57,8 +57,8 @@ function CardWeather() {
           />
           <button
             onClick={fetchWeather}
-            className="text-white hover:text-yellow-300 ml-2"
-            title="Search"
+            className="text-red-400 hover:text-yellow-300 ml-2"
+            title="Search
           >
             <FaSearch size={20} />
           </button>
